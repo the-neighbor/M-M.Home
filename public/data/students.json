@@ -1,0 +1,33 @@
+[
+    {
+        "id": "1",
+        "name": "Regina",
+        "subjects": ["History", "Photography"]
+    },
+    {
+        "id": "2",
+        "name": "Oleg",
+        "subjects": ["Drawing", "Painting", "Illustration"]
+    },
+    {
+        "id":"3",
+        "name": "Maxime",
+        "subjects": ["Graphic Design", "Computer Science", "Software Engineering"]
+    },
+    {
+        "id":"4",
+        "name": "Klaus",
+        "subjects": ["Cybersecurity", "Chemistry", "Electrical Engineering"]
+    },
+    {
+        "id":"5",
+        "name": "Capella",
+        "subjects": ["Drawing", "Painting", "Dance"]
+    },
+    {
+        "id":"6",
+        "name": "Xavier",
+        "subjects": ["Computer Science", "Network Engineering", "Web Development"]
+
+    }
+]

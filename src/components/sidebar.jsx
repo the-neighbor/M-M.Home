@@ -19,7 +19,7 @@ export default function Sidebar() {
       <ul className="relative">
         <li className="relative">
           <a
-            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
+            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="/"
             data-mdb-ripple="true"
             data-mdb-ripple-color="dark"
@@ -29,7 +29,7 @@ export default function Sidebar() {
         </li>
         <li className="relative">
           <a
-            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
+            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="/about"
             data-mdb-ripple="true"
             data-mdb-ripple-color="dark"
@@ -39,7 +39,7 @@ export default function Sidebar() {
         </li>
         <li className="relative">
           <a
-            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
+            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="/technology"
             data-mbd-ripple="true"
             data-mdb-ripple-color="dark"
@@ -49,7 +49,7 @@ export default function Sidebar() {
         </li>
         <li className="relative">
           <a
-            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
+            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="/arts"
             data-mbd-ripple="true"
             data-mdb-ripple-color="dark"
@@ -59,7 +59,7 @@ export default function Sidebar() {
         </li>
         <li className="relative">
           <a
-            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
+            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="/students"
             data-mbd-ripple="true"
             data-mdb-ripple-color="dark"
@@ -69,7 +69,7 @@ export default function Sidebar() {
         </li>
         <li className="relative">
           <a
-            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
+            className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
             href="/donate"
             data-mbd-ripple="true"
             data-mdb-ripple-color="dark"

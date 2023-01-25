@@ -2,6 +2,7 @@
     {
         "id": "1",
         "name": "Regina",
+        "image": "assets/img/students/regina.jpeg",
         "subjects": ["History", "Photography"]
     },
     {
@@ -12,16 +13,19 @@
     {
         "id":"3",
         "name": "Maxime",
+        "image": "assets/img/students/maxime.jpeg",
         "subjects": ["Graphic Design", "Computer Science", "Software Engineering"]
     },
     {
         "id":"4",
         "name": "Klaus",
+        "image": "assets/img/students/klaus.jpeg",
         "subjects": ["Cybersecurity", "Chemistry", "Electrical Engineering"]
     },
     {
         "id":"5",
         "name": "Capella",
+        "image": "assets/img/students/capella.jpeg",
         "subjects": ["Drawing", "Painting", "Dance"]
     },
     {

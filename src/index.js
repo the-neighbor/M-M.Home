@@ -17,6 +17,7 @@ import DonatePage from './routes/donate-page';
 import ArtPage from './routes/art-page';
 import TechnologyPage from './routes/technology-page';
 import StudentsPage from './routes/students-page';
+import AdventurePage from './routes/adventure-page';
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
     {
       path: "/students",
       element: <StudentsPage />
+    },
+    {
+      path: "adventure",
+      element: <AdventurePage />
     }
   ]
   },

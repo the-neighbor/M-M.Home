@@ -28,7 +28,7 @@ jobs:
         path: test-results/
         retention-days: 30
     - name: merge reports
-      run: npx ctrf merge test-results
+      run: npx ctrf merge test-results --keep-reports --output merged-report.json
     - name: Publish CTRF Detailed Test Summary Results
-      run: npx github-actions-ctrf tests path-to-your-ctrf-report.json
+      run: npx github-actions-ctrf tests test-results/merged-report.json
       if: always()

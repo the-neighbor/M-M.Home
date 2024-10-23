@@ -38,7 +38,7 @@ jobs:
     - name: Setup Pages
 
       uses: actions/configure-pages@v2
-      if: ({!cancelled()})
+      if: $({!cancelled()})
     - name: Upload pages artifact
       uses: actions/upload-pages-artifact@v1
 

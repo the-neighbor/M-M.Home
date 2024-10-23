@@ -36,9 +36,7 @@ jobs:
       run: npx playwright test
       if: always()
     - name: Setup Pages
-
       uses: actions/configure-pages@v2
-      if: $({!cancelled()})
     - name: Upload pages artifact
       uses: actions/upload-pages-artifact@v1
 
@@ -47,7 +45,6 @@ jobs:
           # Upload the coverage directory from the repository
 
           path: './integration-test-report'
-      if: $({!cancelled()})
     - name: Deploy to GitHub Pages
 
       id: deployment
@@ -57,7 +54,6 @@ jobs:
       run: mv integration-test-results test-results && mv unit-test-results/* test-results/
       if: always()
     - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
       with:
         name: test-results
         path: test-results

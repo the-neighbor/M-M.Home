@@ -47,7 +47,7 @@ jobs:
           # Upload the coverage directory from the repository
 
           path: './integration-test-report'
-      if: ({!cancelled()})
+      if: $({!cancelled()})
     - name: Deploy to GitHub Pages
 
       id: deployment

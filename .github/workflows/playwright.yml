@@ -4,6 +4,19 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  workflow_dispatch:
+permissions:
+
+   contents: read
+
+   pages: write
+
+   id-token: write
+concurrency:
+
+   group: 'pages'
+
+   cancel-in-progress: true
 jobs:
   test:
     timeout-minutes: 60
@@ -19,11 +32,29 @@ jobs:
       run: npx jest
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+      if: always()
     - name: Run Playwright tests
       run: npx playwright test
       if: always()
+    - name: Setup Pages
+      if: always()
+      uses: actions/configure-pages@v2
+    - name: Upload pages artifact
+      if: always()
+      uses: actions/upload-pages-artifact@v1
+      with:
+
+          # Upload the coverage directory from the repository
+
+          path: './playwright-report'
+    - name: Deploy to GitHub Pages
+      if: always()
+      id: deployment
+      uses: actions/deploy-pages@v1
+    - name: combine test results
+      run: mv integration-test-results test-results && mv unit-test-results/* test-results/
+      if: always()
     - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
       with:
         name: test-results
         path: test-results

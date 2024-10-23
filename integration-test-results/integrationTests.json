@@ -1,0 +1,140 @@
+{
+  "results": {
+    "tool": {
+      "name": "playwright"
+    },
+    "summary": {
+      "tests": 6,
+      "passed": 0,
+      "failed": 6,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1729686477115,
+      "stop": 1729686521069,
+      "suites": 0
+    },
+    "tests": [
+      {
+        "name": "has title",
+        "status": "failed",
+        "duration": 8749,
+        "start": 1729686477,
+        "stop": 1729686486,
+        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected pattern: \u001b[32m/Playwright/\u001b[39m\nReceived string:  \u001b[31m\"Tymeline FE internship React\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n",
+        "trace": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected pattern: \u001b[32m/Playwright/\u001b[39m\nReceived string:  \u001b[31m\"Tymeline FE internship React\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\n    at /Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js:8:22",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > example.spec.js",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "get started link",
+        "status": "failed",
+        "duration": 30156,
+        "start": 1729686477,
+        "stop": 1729686507,
+        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "trace": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "rawStatus": "timedOut",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > example.spec.js",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "has title",
+        "status": "failed",
+        "duration": 10887,
+        "start": 1729686477,
+        "stop": 1729686488,
+        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected pattern: \u001b[32m/Playwright/\u001b[39m\nReceived string:  \u001b[31m\"Tymeline FE internship React\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n",
+        "trace": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected pattern: \u001b[32m/Playwright/\u001b[39m\nReceived string:  \u001b[31m\"Tymeline FE internship React\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\n    at /Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js:8:22",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > example.spec.js",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "get started link",
+        "status": "failed",
+        "duration": 30081,
+        "start": 1729686477,
+        "stop": 1729686507,
+        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "trace": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "rawStatus": "timedOut",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > example.spec.js",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "has title",
+        "status": "failed",
+        "duration": 8244,
+        "start": 1729686487,
+        "stop": 1729686495,
+        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected pattern: \u001b[32m/Playwright/\u001b[39m\nReceived string:  \u001b[31m\"Tymeline FE internship React\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n",
+        "trace": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected pattern: \u001b[32m/Playwright/\u001b[39m\nReceived string:  \u001b[31m\"Tymeline FE internship React\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Tymeline FE internship React\"\u001b[22m\n\n    at /Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js:8:22",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > example.spec.js",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "get started link",
+        "status": "failed",
+        "duration": 30141,
+        "start": 1729686490,
+        "stop": 1729686520,
+        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "trace": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+        "rawStatus": "timedOut",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/neighborolive/Documents/Programming/WebDev/M-M/M-M.Home/tests/example.spec.js",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > example.spec.js",
+        "extra": {
+          "annotations": []
+        }
+      }
+    ]
+  }
+}

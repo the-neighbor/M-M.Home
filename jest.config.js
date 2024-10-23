@@ -18,7 +18,7 @@ const config = {
     ],
     reporters: [
         'default',
-        ['jest-ctrf-json-reporter', {outputFile: 'unitTests.json', outputDir: 'test-results'}],
+        ['jest-ctrf-json-reporter', {outputFile: 'unitTests.json', outputDir: 'unit-test-results'}],
       ],
   };
   

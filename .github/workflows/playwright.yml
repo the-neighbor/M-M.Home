@@ -4,6 +4,19 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  workflow_dispatch:
+permissions:
+
+   contents: read
+
+   pages: write
+
+   id-token: write
+concurrency:
+
+   group: 'pages'
+
+   cancel-in-progress: true
 jobs:
   test:
     timeout-minutes: 60
@@ -22,6 +35,28 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test
       if: always()
+    - name: Setup Pages
+
+      uses: actions/configure-pages@v2
+      if: ({!cancelled()})
+    - name: Upload pages artifact
+      uses: actions/upload-pages-artifact@v1
+
+      with:
+
+          # Upload the coverage directory from the repository
+
+          path: './integration-test-report'
+      if: ({!cancelled()})
+    - name: Deploy to GitHub Pages
+
+      id: deployment
+
+      uses: actions/deploy-pages@v1
+    - name: combine test results
+      run : mv integration-test-results test-results
+      run : mv unit-test-results/* test-results/
+      if : always()
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
